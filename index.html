@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THD 🎮 |  Portfolio</title>
+
+  <!-- Tipografías de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MENÚ DE NAVEGACIÓN -->
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#inicio" class="logo">~/Tomas Hurtado</a>
+
+      <ul class="nav__links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- PRESENTACIÓN -->
+    <section id="inicio" class="hero">
+      <div class="hero__text">
+        <p class="hero__greeting">Muy buenas, yo soy</p>
+        <h1 class="hero__name">Tomás Hurtado Delmedico</h1>
+        <p class="hero__role">Estudiante de Administración de Sistemas Informáticos en Red (ASIR)</p>
+        <p class="hero__desc">
+          Me estoy formando en instalación de equipos, redes y sistemas operativos,
+          y poco a poco voy metiéndome en el mundo de la ciberseguridad. Aquí reúno
+          mis proyectos personales y lo que voy aprendiendo por el camino.
+        </p>
+        <div class="hero__cta">
+          <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+          <a href="#contacto" class="btn btn--ghost">Contactar</a>
+        </div>
+      </div>
+
+      <!-- Tarjeta estilo "terminal" -->
+      <div class="terminal">
+        <div class="terminal__bar">
+          <span class="dot dot--red"></span>
+          <span class="dot dot--yellow"></span>
+          <span class="dot dot--green"></span>
+          <span class="terminal__title">bash</span>
+        </div>
+        <div class="terminal__body">
+          <p><span class="prompt">thd@asir</span><span class="path">:~$</span> whoami</p>
+          <p class="output">Tomás Hurtado Delmedico | THD</p>
+          <p><span class="prompt">thd@asir</span><span class="path">:~$</span> cat profesiones.txt</p>
+          <p class="output">S.O · PC-Hardware · Técnico de soporte y SMR</p>
+          <p><span class="prompt">thd@asir</span><span class="path">:~$</span> <span class="cursor"></span></p>
+        </div>
+      </div>
+    </section>
+
+    <!--SECCIÓN: SOBRE MÍ -->
+    <section id="sobre-mi" class="section">
+      <p class="eyebrow">// 01_sobre-mi</p>
+      <h2 class="section-title">Me presento...</h2>
+
+      <div class="about">
+        <div class="about__text">
+          <p>
+            Actualmente estoy cursando el ciclo formativo de grado Superior de
+            <strong>ASIR (Administración de Sistemas Informáticos en Red)</strong> en
+            INS Nicolau Copérnic. Me interesa todo lo relacionado con
+            los sistemas operativos, el hardware de equipos informáticos y cada día me llama mas la atención el mundo de la ciberseguridad
+            y la administración de servidores.
+          </p>
+          <p>
+            He conseguido titularme como Técnico en Sistemas Microinformáticos y Redes (SMR). Actualmente, tengo una experiencia base de 1 año 
+            de practicas como tecnico de soporte a usuarios en la empresa <a href="https://www.circutor.com">Circutor</a>. 
+          </p>
+          <p>
+            Circutor es una empresa catalana dedicada al desarrollo de tecnología para mejorar 
+            la eficiencia energética eléctrica. Su sede central está en Viladecavalls (Barcelona) y es una compañía con más de 50 años de historia en el sector de la energía y la innovación.
+          </p>
+        </div>
+
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__number">1000h</span>
+            <span class="stat__label">Practicas SMR en Circutor (horas)</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">1 años</span>
+            <span class="stat__label">Experiencia laboral (años)</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">???</span>
+            <span class="stat__label">Coming soon</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+         SECCIÓN: HABILIDADES  -->
+
+    <section id="habilidades" class="section">
+      <p class="eyebrow">// 02_habilidades</p>
+      <h2 class="section-title">Habilidades</h2>
+
+      <ul class="skills-grid">
+        <li class="skill">
+          <span class="skill__flag">--hardware 🖥️</span>
+          <p class="skill__desc">Conocimientos sobre componentes y funcionamiento de equipos informáticos.</p>
+        </li>
+        <li class="skill">
+          <span class="skill__flag">--redes 🛜 </span>
+          <p class="skill__desc">Configuracion de routers y diseño de redes en Cisco Packet Tracer</p>
+        </li>
+        <li class="skill">
+          <span class="skill__flag">--S.O 🪟 🐧</span>
+          <p class="skill__desc">Uso y administración básica/avanzada de sistemas Windows.
+            Conocimientos y comandos basicos de Linux.
+          </p>
+        </li>
+        <li class="skill">
+          <span class="skill__flag">--windows-server</span>
+          <p class="skill__desc">Nociones de Active Directory, usuarios, permisos y grupos.</p>
+        </li>
+        <li class="skill">
+          <span class="skill__flag">-- 📧 ofimatica</span>
+          <p class="skill__desc">Uso de herramientas ofimáticas, outlook y Micrososft Teams.</p>
+        </li>
+        <li class="skill">
+          <span class="skill__flag">-- 🎟️ GLPI Ticketing</span>
+          <p class="skill__desc">Uso de herramientas ofimáticas, outlook y Micrososft Teams.</p>
+        </li>
+        <!-- Copiar un bloque <li class="skill">...</li> para añadir más habilidades -->
+      </ul>
+    </section>
+
+    <!-- SECCIÓN: PROYECTOS -->
+    <section id="proyectos" class="section">
+      <p class="eyebrow">// 03_proyectos</p>
+      <h2 class="section-title">Proyectos</h2>
+
+      <div class="projects-grid">
+
+        <article class="project">
+          <p class="project__status">
+            <span class="status-dot status-dot--done"></span> Completado
+          </p>
+          <h3 class="project__title">$ Diseños de redes PKT</h3>
+          <p class="project__desc">
+            Diseño de redes en Cisco Packet Tracer. Departamentos, VLANs, routers, switches y servidores DNS/DHCP y HTTP
+          </p>
+          <ul class="project__tags">
+            <li>Cisco Pacet Tracer</li>
+            <li>Redes</li>
+          </ul>
+          <a href="https://www.linkedin.com/pulse/primer-mini-proyecto-de-redes-tom%C3%A1s-hurtado-delmedico-5xv9e" class="project_link">Ver en mi Linkedin →</a>
+        </article>
+
+        <article class="project">
+          <p class="project__status">
+            <span class="status-dot status-dot--progress"></span> En curso
+          </p>
+          <h3 class="project__title">$ homeserver</h3>
+          <p class="project__desc">
+            Servidor casero con una Raspberry Pi: bloqueador de anuncios local, almacenamiento en red y servidor de videojuegos.
+          </p>
+          <ul class="project__tags">
+            <li>Raspberry Pi</li>
+            <li>NAS</li>
+            <li>Minecraft Server</li>
+          </ul>
+          <a href="/comingsoon.html" class="project__link">en proceso... →</a>
+        </article>
+
+        <article class="project">
+          <p class="project__status">
+            <span class="status-dot status-dot--done"></span> Completado
+          </p>
+          <h3 class="project__title">$ portfolio</h3>
+          <p class="project__desc">
+            Esta misma página web, hecha con HTML y CSS y publicada con
+            GitHub Pages.
+          </p>
+          <ul class="project__tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>GitHub Pages</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <p class="project__status">
+            <span class="status-dot status-dot--progress"></span> En curso
+          </p>
+          <h3 class="project__title">$ Todavía nada, pero...</h3>
+          <p class="project__desc">
+            Nuevas ideas rondan por mi cabeza!
+          </p>
+          <ul class="project__tags">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </article>
+
+        <!-- Para añadir un proyecto nuevo, copiar desde <article class="project">
+             hasta </article> y pegar aquí debajo, cambiando los textos -->
+
+      </div>
+    </section>
+
+    <!-- SECCIÓN: PRÓXIMOS PASOS (opcional)-->
+    <section id="metas" class="section">
+      <p class="eyebrow">// 04_proximos-pasos</p>
+      <h2 class="section-title">Próximos pasos</h2>
+
+      <div class="metas-grid">
+        <article class="meta-card">
+          <span class="meta-card__tag">Meta 01</span>
+          <h3>Grado Superior (ASIR)</h3>
+          <p>Terminar de formarme con Administración de Sistemas Informáticos en Red.</p>
+        </article>
+
+        <article class="meta-card">
+          <span class="meta-card__tag">Meta 02</span>
+          <h3>Trabajo y profesión</h3>
+          <p>Encontrar oportunidades laborales en el campo de los sistemas informáticos y redes.</p>
+        </article>
+
+        <article class="meta-card">
+          <span class="meta-card__tag">Meta 03</span>
+          <h3>Certificaciones</h3>
+          <p>Obtener certificaciones relacionadas con Sistemas Operativos y ciberseguridad.</p>
+        </article>
+
+        <article class="meta-card">
+          <span class="meta-card__tag">Meta 04</span>
+          <h3>Más proyectos propios</h3>
+          <p>Seguir montando e ideando nuevos proyectos.</p>
+        </article>
+      </div>
+    </section>
+
+    <!--SECCIÓN: CONTACTO-->
+    <section id="contacto" class="section">
+      <p class="eyebrow">// 05_contacto</p>
+      <h2 class="section-title">Hablemos!</h2>
+      <p class="contact-intro">
+        ¿Tienes alguna duda, propuesta o simplemente quieres saludar?
+        Escríbeme por aquí.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>Email:</strong> <a href="mailto:thurtadel@protonmail.com">thurtadel@protonmail.com</a></p>
+          <p><strong>Ubicación:</strong> Catalunya, España</p>
+        </div>
+
+        <ul class="social-links">
+          <li><a href="https://github.com/Thomas426" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/tomas-hurtado-viewmyprofile">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA-->
+  <footer class="site-footer">
+    <p>Concepto y contenido propios. Código desarrollado con Inteligencia Artificial</p> 
+    <p>© 2026 Tomas Hurtado</p>
+    <a href="#inicio" class="back-to-top">Volver arriba ↑</a>
+  </footer>
+
+</body>
+</html>
