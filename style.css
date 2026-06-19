@@ -1,38 +1,18 @@
-/*
-   Cómo está organizado este archivo:
-     1. Variables de color y tipografía 
-     2. Reset básico
-     3. Estilos generales (body, enlaces, botones...)
-     4. Cabecera / menú
-     5. Sección "Inicio" + tarjeta terminal
-     6. Secciones generales (título, eyebrow)
-     7. Sobre mí
-     8. Habilidades
-     9. Proyectos
-    10. Próximos pasos
-    11. Contacto
-    12. Pie de página
-    13. Responsive (pantallas pequeñas)*/
-
-
-/* =============================================================
-   1. VARIABLES — cambia aquí los colores y tipografías
-   ============================================================= */
 :root {
   /* Colores de fondo */
-  --bg: #0d1117;          /* fondo general de la página */
-  --surface: #161c24;     /* fondo de tarjetas */
-  --surface-2: #1c2430;   /* fondo de elementos dentro de tarjetas */
-  --border: #263140;      /* líneas y bordes */
+  --bg: #0d1117;          
+  --surface: #161c24;     
+  --surface-2: #1c2430;   
+  --border: #263140;      
 
-  /* Colores de texto */
-  --text: #eef2f6;        /* texto principal */
-  --text-dim: #8b98a8;    /* texto secundario / descripciones */
+   
+  --text: #eef2f6;        
+  --text-dim: #8b98a8;    
 
-  /* Colores de acento — cámbialos para darle tu toque personal */
-  --accent: #ffb454;        /* ámbar: títulos, botones, detalles */
-  --accent-contrast: #1a1408; /* texto que va ENCIMA del acento */
-  --accent-2: #5ec8d8;       /* cian: enlaces, segundo detalle */
+  
+  --accent: #ffb454;        
+  --accent-contrast: #1a1408;
+  --accent-2: #5ec8d8;       
 
   /* Tipografías */
   --font-display: 'JetBrains Mono', 'Courier New', monospace;
